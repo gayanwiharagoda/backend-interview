@@ -1,0 +1,11 @@
+## add a item
+post http://localhost:3000/item
+content-type: application/json
+
+{ 
+    "description": "this new item is a resently introduced one", 
+    "images": [ "http://example.image-1.jpg" ], 
+    "price": 100, 
+    "currency": "SEK", 
+    "title": "new item"
+}
