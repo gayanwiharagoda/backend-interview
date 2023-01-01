@@ -1,0 +1,7 @@
+## add a item
+put http://localhost:3000/item/63b029a90dd12378426581df
+content-type: application/json
+
+{
+    "price": 100
+}
