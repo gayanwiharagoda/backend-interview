@@ -1,0 +1,7 @@
+## get items
+get http://localhost:3000/item
+
+###
+## get items with pagination
+
+get http://localhost:3000/item?page=0&limit=3
